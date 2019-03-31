@@ -4,6 +4,7 @@ html {
     overflow: auto;
     height: 100%;
 }
+
 body {
     width: auto;
     height: auto;
@@ -29,9 +30,11 @@ img {
     -ms-interpolation-mode: bicubic;
     max-width: 100%;
 }
+
 img[align="right"] {
     float: right;
 }
+
 img[align="left"] {
     float: left;
 }
@@ -41,14 +44,16 @@ table {
     border-spacing: 0;
     border: 0;
 }
+
 table td,
 table th {
     padding: 10px;
     border: 1px solid #888;
     text-align: left;
     vertical-align: top;
-    background: #dde4e9;
+    /*background: #dde4e9;*/
 }
+
 table th {
     font-weight: bold;
 }
@@ -56,15 +61,19 @@ table th {
 sub, sup {
     line-height: 0;
 }
+
 abbr[title] {
     border-bottom: 1px dotted;
 }
+
 b, strong {
     font-weight: bold;
 }
+
 em, i {
     font-style: italic;
 }
+
 q, quote {
     display: block;
     padding: 1em;
@@ -72,8 +81,9 @@ q, quote {
     background: #f4f7f8;
     font-weight: bold;
 }
+
 q:before, quote:before,
-q:after, quote:after{
+q:after, quote:after {
     content: '"';
     font-size: 1.5em;
     margin: 0.25em;
@@ -81,11 +91,10 @@ q:after, quote:after{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 1em 0 ;
+    margin: 1em 0;
     padding: 0;
     font-weight: bold;
 }
-
 
 form, fieldset, p, table, img, code, ul, ol {
     display: block;
@@ -102,10 +111,12 @@ code {
 ul, ol {
     padding: 0 0 0 2em;
 }
-ul li, 
-ol li{
+
+ul li,
+ol li {
     margin: 0 0 1em;
 }
+
 li ul,
 li ol {
     margin-top: 1em;
@@ -115,10 +126,10 @@ dt {
     font-weight: bold;
     margin: 0 0 0.1em;
 }
+
 dd {
     margin: 0 0 1em 2.5em;
 }
-
 
 a {
     text-decoration: underline;
@@ -128,10 +139,12 @@ a {
 a:hover {
     text-decoration: none;
 }
+
 a:hover,
 a:active {
     outline: transparent;
 }
+
 a:focus {
     outline: thin dotted;
 }
